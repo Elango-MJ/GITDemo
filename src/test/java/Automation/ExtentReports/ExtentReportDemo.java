@@ -40,6 +40,7 @@ public class ExtentReportDemo {
 		driver.get("https://rahulshettyacademy.com/client");
 		String title=driver.getTitle();
 		System.out.println(title);
+		System.out.println("Git Test");
 		driver.close();
 		test.fail("Test case failed");
 		extent.flush();

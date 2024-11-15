@@ -41,6 +41,9 @@ public class ExtentReportDemo {
 		String title=driver.getTitle();
 		System.out.println(title);
 		System.out.println("Git Test");
+		System.out.println("Git Test1");
+		System.out.println("Git Test2");
+		System.out.println("Git Test3");
 		driver.close();
 		test.fail("Test case failed");
 		extent.flush();
